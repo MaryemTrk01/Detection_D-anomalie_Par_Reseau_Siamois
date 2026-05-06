@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets and generated caches
+Dataset/
+gaf_1024_cache/
+*.dat
+*.npz
+*.npy
+Base_*_normalized.csv
+
+# Model artifacts
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+models/
+
+# Exports and backups
+Export_GAF/
+main_backup_before_cleanup.ipynb
+ps3_rendered/
+ps3_pages/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
